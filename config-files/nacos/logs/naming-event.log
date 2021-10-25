@@ -1,0 +1,238 @@
+2021-06-10 10:47:44,160 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:47:44,163 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.43.54:8222_true,
+
+2021-06-10 10:47:53,164 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:47:53,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 192.168.43.54:8007_true,
+
+2021-06-10 10:47:55,767 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:47:55,767 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 192.168.43.54:8004_true,
+
+2021-06-10 10:48:01,437 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:01,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 192.168.43.54:8008_true,
+
+2021-06-10 10:48:05,520 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:05,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.43.54:8001_true,
+
+2021-06-10 10:48:09,489 INFO DEFAULT_GROUP@@service-rcm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:09,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-rcm, ips: 192.168.43.54:8010_true,
+
+2021-06-10 10:48:10,140 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:10,141 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.43.54:8002_true,
+
+2021-06-10 10:48:15,162 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:15,162 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 192.168.43.54:8009_true,
+
+2021-06-10 10:48:16,377 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:16,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 192.168.43.54:8003_true,
+
+2021-06-10 10:48:18,955 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:18,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 192.168.43.54:8005_true,
+
+2021-06-10 10:48:21,600 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.43.54:8006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:48:21,600 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 192.168.43.54:8006_true,
+
+2021-06-10 10:50:47,272 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2021-06-10 10:50:47,353 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 
+
+2021-06-10 10:50:47,431 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2021-06-10 10:50:47,511 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,511 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 
+
+2021-06-10 10:50:47,589 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-06-10 10:50:47,660 INFO DEFAULT_GROUP@@service-rcm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,660 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-rcm, ips: 
+
+2021-06-10 10:50:47,727 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,727 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2021-06-10 10:50:47,801 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,801 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 
+
+2021-06-10 10:50:47,874 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,874 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 
+
+2021-06-10 10:50:47,953 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:47,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 
+
+2021-06-10 10:50:48,043 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.43.54:8006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 10:50:48,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-06-10 14:58:43,715 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:58:43,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 127.0.0.1:8222_true,
+
+2021-06-10 14:58:52,798 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:58:52,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 127.0.0.1:8007_true,
+
+2021-06-10 14:58:56,019 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:58:56,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 127.0.0.1:8004_true,
+
+2021-06-10 14:59:01,232 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:01,232 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 127.0.0.1:8008_true,
+
+2021-06-10 14:59:05,225 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:05,226 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 127.0.0.1:8001_true,
+
+2021-06-10 14:59:09,880 INFO DEFAULT_GROUP@@service-rcm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:09,880 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-rcm, ips: 127.0.0.1:8010_true,
+
+2021-06-10 14:59:10,978 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:10,978 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 127.0.0.1:8002_true,
+
+2021-06-10 14:59:17,984 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:17,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 127.0.0.1:8009_true,
+
+2021-06-10 14:59:19,261 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:19,261 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 127.0.0.1:8003_true,
+
+2021-06-10 14:59:22,318 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:22,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 127.0.0.1:8005_true,
+
+2021-06-10 14:59:25,039 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 14:59:25,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 127.0.0.1:8006_true,
+
+2021-06-10 15:22:29,544 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8008@DEFAULT@DEFAULT_GROUP@@service-statistics, region: unknown, msg: client timeout after 15000, last beat: 1623309631548
+
+2021-06-10 15:22:29,544 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8007@DEFAULT@DEFAULT_GROUP@@service-order, region: unknown, msg: client timeout after 15000, last beat: 1623309632293
+
+2021-06-10 15:22:29,545 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8009@DEFAULT@DEFAULT_GROUP@@service-acl, region: unknown, msg: client timeout after 15000, last beat: 1623309632591
+
+2021-06-10 15:22:29,608 INFO service: DEFAULT_GROUP@@service-statistics {POS} {IP-ENABLED} valid: 127.0.0.1:8008@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-10 15:22:29,631 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-06-10 15:22:29,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 
+
+2021-06-10 15:22:29,631 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 15:22:29,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 
+
+2021-06-10 15:22:29,631 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-06-10 15:22:29,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 
+
+2021-06-10 15:22:30,334 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 15:22:30,334 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 127.0.0.1:8007_true,
+
+2021-06-10 15:22:30,626 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 15:22:30,626 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 127.0.0.1:8009_true,
+
+2021-06-10 15:22:34,589 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 15:22:34,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 127.0.0.1:8008_true,
+
+2021-06-10 16:28:30,976 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8009@DEFAULT@DEFAULT_GROUP@@service-acl, region: unknown, msg: client timeout after 15000, last beat: 1623309795669
+
+2021-06-10 16:28:30,976 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8007@DEFAULT@DEFAULT_GROUP@@service-order, region: unknown, msg: client timeout after 15000, last beat: 1623309795381
+
+2021-06-10 16:28:30,976 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8008@DEFAULT@DEFAULT_GROUP@@service-statistics, region: unknown, msg: client timeout after 15000, last beat: 1623309794624
+
+2021-06-10 16:28:30,984 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-06-10 16:28:30,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 
+
+2021-06-10 16:28:30,984 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-06-10 16:28:30,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 
+
+2021-06-10 16:28:30,984 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-06-10 16:28:30,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 
+
+2021-06-10 16:28:30,987 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:30,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 127.0.0.1:8008_true,
+
+2021-06-10 16:28:31,744 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:31,744 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 127.0.0.1:8007_true,
+
+2021-06-10 16:28:32,030 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:32,030 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 127.0.0.1:8009_true,
+
+2021-06-10 16:28:45,465 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:45,465 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2021-06-10 16:28:45,657 INFO DEFAULT_GROUP@@service-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:45,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-order, ips: 
+
+2021-06-10 16:28:45,977 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:45,977 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2021-06-10 16:28:46,103 INFO DEFAULT_GROUP@@service-statistics {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8008:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:46,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-statistics, ips: 
+
+2021-06-10 16:28:46,460 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:46,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-06-10 16:28:46,750 INFO DEFAULT_GROUP@@service-rcm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:46,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-rcm, ips: 
+
+2021-06-10 16:28:46,827 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:46,827 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2021-06-10 16:28:46,971 INFO DEFAULT_GROUP@@service-acl {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8009:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:46,971 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-acl, ips: 
+
+2021-06-10 16:28:47,106 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:47,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 
+
+2021-06-10 16:28:47,297 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:47,297 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 
+
+2021-06-10 16:28:47,476 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-10 16:28:47,476 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+

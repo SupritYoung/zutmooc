@@ -1,0 +1,87 @@
+/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/bin/java  -Xms512m -Xmx512m -Xmn256m -Dnacos.standalone=true -cp .:/usr/local/nacos/plugins/cmdb/*.jar:/usr/local/nacos/plugins/mysql/*.jar -Xlog:gc*:file=/usr/local/nacos/logs/nacos_gc.log:time,tags:filecount=10,filesize=102400 -Dnacos.home=/usr/local/nacos -Dloader.path=/usr/local/nacos/plugins/health -jar /usr/local/nacos/target/nacos-server.jar  --spring.config.location=classpath:/,classpath:/config/,file:./,file:./config/,file:/usr/local/nacos/conf/ --logging.config=/usr/local/nacos/conf/nacos-logback.xml --server.max-http-header-size=524288
+
+         ,--.
+       ,--.'|
+   ,--,:  : |                                           Nacos 1.1.4
+,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
+|   :  :  | |                      '   ,'\   .--.--.    Port: 8848
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 7966
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.2.217:8848/nacos/index.html
+'   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
+|   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
+'   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
+|   | '`--'  /  /  ,.  |'   | '.'|\   \  /  /  /`--'  /
+'   : |     ;  :   .'   \   :    : `----'  '--'.     /
+;   |.'     |  ,     .-./\   \  /            `--'---'
+'---'        `--`---'     `----'
+
+2021-05-31 22:35:03,084 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$730c2e83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-05-31 22:35:03,183 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-05-31 22:35:03,186 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4febb875' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-05-31 22:35:03,188 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$97e0d135] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-05-31 22:35:03,193 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-05-31 22:35:03,627 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-05-31 22:35:03,788 INFO Root WebApplicationContext: initialization completed in 2322 ms
+
+2021-05-31 22:35:06,192 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-05-31 22:35:06,354 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-05-31 22:35:06,722 INFO Creating filter chain: Ant [pattern='/'], []
+
+2021-05-31 22:35:06,722 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2021-05-31 22:35:06,723 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2021-05-31 22:35:06,753 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30c1da48, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b4eced1, org.springframework.security.web.header.HeaderWriterFilter@5981f4a6, org.springframework.security.web.authentication.logout.LogoutFilter@257e0827, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@43a65cd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@216e9ca3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f6874f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f1ef9d6, org.springframework.security.web.session.SessionManagementFilter@a4b5ce3, org.springframework.security.web.access.ExceptionTranslationFilter@54db056b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@514de325]
+
+2021-05-31 22:35:06,830 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2021-05-31 22:35:06,858 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-05-31 22:35:06,940 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-05-31 22:35:06,945 INFO Nacos Log files: /usr/local/nacos/logs/
+
+2021-05-31 22:35:06,945 INFO Nacos Conf files: /usr/local/nacos/conf/
+
+2021-05-31 22:35:06,945 INFO Nacos Data files: /usr/local/nacos/data/
+
+2021-05-31 22:35:06,945 INFO Nacos started successfully in stand alone mode.
+
+2021-05-31 22:35:07,094 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-05-31 22:35:07,099 INFO Completed initialization in 5 ms
+

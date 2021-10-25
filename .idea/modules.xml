@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/common/common_utils/common_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-parent.iml" filepath="$PROJECT_DIR$/guli-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/service_base/service_base.iml" filepath="$PROJECT_DIR$/common/service_base/service_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_edu/service_edu.iml" filepath="$PROJECT_DIR$/service/service_edu/service_edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_oss/service_oss.iml" filepath="$PROJECT_DIR$/service/service_oss/service_oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_vod/service_vod.iml" filepath="$PROJECT_DIR$/service/service_vod/service_vod.iml" />
+    </modules>
+  </component>
+</project>
